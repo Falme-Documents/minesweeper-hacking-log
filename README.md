@@ -1,0 +1,1 @@
+# minesweeper-hacking-log
