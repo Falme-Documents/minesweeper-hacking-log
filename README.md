@@ -21,6 +21,7 @@ The objective of this document is to make a log of things that I've changed/hack
 ## Tools
 
 IDA (Free) : https://www.hex-rays.com/ida-pro/
+
 OllyDebugger : https://www.ollydbg.de/
 
 ## Study Resources
