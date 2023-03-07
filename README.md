@@ -14,6 +14,15 @@ The objective of this document is to make a log of things that I've changed/hack
 2. Question Marks Already Set In Mines Places From Startup
 3. Make Mine Counter Do Not Decrement When Added a Flag in Field
 
+### 1. Flags Already Set In Mines Places From Startup
+
+
+
 ## Tools
 
+IDA (Free) : https://www.hex-rays.com/ida-pro/
+OllyDebugger : https://www.ollydbg.de/
+
 ## Study Resources
+
+Reverse Engineering For Beginners : https://www.begin.re/
