@@ -23,7 +23,7 @@ The objective of this document is to make a log of things that I've changed/hack
 
 THIS IS NOT A TUTORIAL: this is my log from the learning of the workshop Begin RE (where you can find a link in Study Resources)
 
-The address where it stores the randomized data in memory (such as Mines or Empty Spaces) is at **Hex Dump: 0x01005360**\
+The address where it stores the randomized data in memory (such as Mines or Empty Spaces) is at `Hex Dump: 0x01005360` \
 From there you can check where is a mine or not.
 <br />
 <br />
