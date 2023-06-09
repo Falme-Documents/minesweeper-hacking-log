@@ -46,6 +46,23 @@ To change it to `8E` (flag) we will need to change it to a `XOR 81` to `8F` resu
 
 ### 2. Question Marks Already Set In Mines Places From Startup
 
+Objective : In the beggining of the game, the places where the mines is hidden, change the sprite to a Question Mark
+
+1. Open `Ollydbg` on your machine
+2. Open `Minesweeper.exe` in `Ollydbg > File > Open`, or pressing F3
+3. Minesweeper will start paused, to show the game and continue the code to running press Play button or F9
+4. To generate Questions in mine places, we need to change the CPU command at `0x010036FA` to be  
+`XOR BYTE PTR DS:[EAX],82` , because currently it is adding the hexadecimal `80` to a `0F` field making it `8F` (bomb).  
+To change it to `8D` (Question) we will need to change it to a `XOR 82` to `8F` resulting in `8D` (Question)
+5. Go to address `0x010036FA`, press Space and change the command to `XOR BYTE PTR DS:[EAX],82`.
+6. Press play to make the minesweeper.exe start running
+7. The question marks should be appearing in the place of the mines
+<br />
+<br />
+
+### 3. Make Mine Counter Do Not Decrement When Added a Flag in Field
+
+
 <br />
 <br />
 
