@@ -62,6 +62,16 @@ To change it to `8D` (Question) we will need to change it to a `XOR 82` to `8F` 
 
 ### 3. Make Mine Counter Do Not Decrement When Added a Flag in Field
 
+Objective : When the player find a bomb, the HUD will decrease the number of remaining bombs, we want this number to not change
+
+1. Open `Ollydbg` on your machine
+2. Open `Minesweeper.exe` in `Ollydbg > File > Open`, or pressing F3
+3. The memory address for the current value of remaining bombs is at `0x01005194`
+4. To stop the Counter to change, go to CPU address at `0x0100346E` and fill with NOPs
+5. To Fill with NOPs, right-click the address and `Binary > Fill With NOP's`
+6. Press play to make the minesweeper.exe start running
+7. The remaining mines counter should be stop counting when you place a flag
+
 
 <br />
 <br />
